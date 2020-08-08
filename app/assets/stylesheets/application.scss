@@ -1,0 +1,41 @@
+$text-color: #555;
+
+header {
+  background-color: #ffa735;
+  height: 60px;
+  line-height: 60px;
+  .site-content {
+    float: left;
+    .site-name {
+      font-size: 26px;
+      font-weight: bold;
+      margin-left: 50px;
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+  .about-content {
+    float: left;
+    text-align: center;
+    .about-link {
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 400px;
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: #ffdaa9;
+  text-align: center;
+  .copylight {
+    font-size: 15px;
+    color: $text-color;
+  }
+}
